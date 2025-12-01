@@ -1,5 +1,5 @@
 ---
-# layout: post
+layout: post
 title: "Learning REACT"
 date: 2025-11-22 12:00:00 -0500
 categories: REACT

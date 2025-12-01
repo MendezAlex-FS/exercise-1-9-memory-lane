@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content flex-direction">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        <div class="mode-toggle">
+          <label class="switch">
+            <input type="checkbox" id="mode-slider">
+            <span class="slider-light" data-slider-span></span>
+          </label>
+        </div>
+        <div id="mobile-menu" class="light">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about' | relative_url }}">About</a>
+        </div>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <nav class="post-nav container header-content" aria-label="Breadcrumb">
+    <ol>
+      {% unless page.url == "/" or page.title == "Home" %}
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      {% endunless %}
+      <li aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+
+  <main class="site-main container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Built using Jekyll.</p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+
+</html>

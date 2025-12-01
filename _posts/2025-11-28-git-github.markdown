@@ -1,5 +1,5 @@
 ---
-# layout: post
+layout: post
 title: "Learning git and github"
 date: 2025-11-28 12:00:00 -0500
 categories: GIT

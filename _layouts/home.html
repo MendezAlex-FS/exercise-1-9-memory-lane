@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1 class="hero-title">Welcome to my Tech Blogs</h1>
+  <p class="hero-subtitle">
+    What I have here are some posts about technology that I have learned so far.
+  </p>
+</section>
+
+<section class="posts-list">
+  <h2>Latest Posts</h2>
+  <div class="posts-grid">
+    {% for post in site.posts %}
+    <article class="post-card animate-light" data-animated-card>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <p class="post-excerpt">
+        {{ post.excerpt | strip_html | truncate: 140 }}
+      </p>
+      <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>

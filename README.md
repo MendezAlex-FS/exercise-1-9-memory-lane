@@ -35,7 +35,26 @@ git clone https://github.com/MendezAlex-FS/exercise-1-9-memory-lane.git
 cd exercise-1-9-memory-lane
 ```
 
-### 2. Install Ruby dependencies on MAC
+### 2. Install Ruby dependencies
+
+#### On MAC
+
+```bash
+gem install bundler jekyll
+jekyll new exercise-1-9-memory-lane
+cd exercise-1-9-memory-lane
+bundle exec jekyll serve
+```
+
+#### On WINDOWS
+
+You must install ruby in order for the below commands to work. The link for the download is:
+
+[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
+
+Version downloaded as of this writing was [Ruby+Devkit 3.4.7-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.7-1/rubyinstaller-devkit-3.4.7-1-x64.exe)
+
+Install using the default prompts.
 
 ```bash
 gem install bundler jekyll

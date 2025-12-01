@@ -1,5 +1,5 @@
 ---
-# layout: post
+layout: post
 title: "Learning APIs with Node"
 date: 2025-11-29 12:00:00 -0500
 categories: APIs Node.js
