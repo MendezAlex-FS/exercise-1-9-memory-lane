@@ -1,4 +1,7 @@
-# 📘 Jekyll Project README
+# 📘 1.9 Assignment: Memory Lane
+Name: Alex Mendez  
+Email: AMendez4@student.fullsail.edu  
+Program: Bachelore's Degree in Web Development  
 
 ## 📌 Overview
 
