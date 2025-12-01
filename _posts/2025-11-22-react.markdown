@@ -1,0 +1,11 @@
+---
+# layout: post
+title: "Learning REACT"
+date: 2025-11-22 12:00:00 -0500
+categories: REACT
+---
+**What have I learned about REACT?**
+
+I’ve learned REACT is all about architecting websites where you are creating as much as possible into pieces that can be reused. Instead of thinking about entire pages at once, I started thinking in small, manageable pieces that each handle their own logic and display. JSX helped me understand how JavaScript and UI can work together, and I began to appreciate how REACT updates only what’s necessary through its virtual DOM. This help with the git process of creating small commits without breaking the build.
+
+I also learned the importance of state and props in managing how data flows throughout an application. Understanding hooks like ```useState``` and ```useEffect``` opened my eyes to how REACT manages dynamic behavior and side effects. I grew confident in application structures, the organization of components, and making them communicate cleanly. Overall, REACT taught me how to create a scalable and responsive interfaces, while maintaining clean, modular code that is easy to grow and maintain.
