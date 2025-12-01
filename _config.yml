@@ -24,8 +24,8 @@ email: "amendez4@student.fullsail.edu"
 description: >- # this means to ignore newlines until "baseurl:"
   A simple static blog about my tech studies and resources.
 domain: "mendezalex-fs.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/exercise-1-9-memory-lane" # the subpath of your site, e.g. /blog
+url: "https://mendezalex-fs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
