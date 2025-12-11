@@ -73,14 +73,27 @@ The site will be available at:
 
 ```bash
 .
-├── _layouts/ # comming soon
+├── _layouts/
+│   ├── default.html
+│   ├── home.html
+│   ├── post-with-image.html
+│   └── post.html
 ├── _posts/
 │   ├── 2025-11-22-react.markdown
 │   ├── 2025-11-28-git-github.markdown
-│   └── 2025-11-29-api-with-node.markdown
+│   ├── 2025-11-29-api-with-node.markdown
+│   ├── 2025-12-05-brendan-and-lex-interview.markdown
+│   ├── 2025-12-05-building-an-api.markdown
+│   └── 2025-12-10-securing-an-api.markdown
 ├── assets/
-│   ├── css/  # comming soon
-│   └── js/   # comming soon
+│   ├── css/
+│   │   └── style.css
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+│       ├── brendan-eich-lex-fridman-interview.png
+│       ├── building-an-api.png
+│       └── securing-an-api.png
 ├── _config.yml
 ├── .gitignore
 ├── 404.html
