@@ -1,6 +1,11 @@
-# 📘 1.9 Assignment: Memory Lane
+# 📘 Assignments
+
+1.9 Assignment: Memory Lane  
+2.6 Exercise  
+3.6 Exercise
+
 Name: Alex Mendez  
-Email: AMendez4@student.fullsail.edu  
+Email: [AMendez4@student.fullsail.edu](mailto:AMendez4@student.fullsail.edu)  
 Program: Bachelore's Degree in Web Development  
 
 ## 📌 Overview
