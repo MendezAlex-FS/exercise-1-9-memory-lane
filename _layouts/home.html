@@ -16,12 +16,18 @@ layout: default
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
 
+      {% capture full_text %}
+      {{ post.question }} {{ post.excerpt | strip_html }}
+      {% endcapture %}
+
+      {% assign truncated = full_text | truncate: 140, "" %}
+      {% assign words = truncated | split: " " %}
+      {% assign word_count = words.size | minus: 1 %}
+      {% assign safe_text = words | slice: 0, word_count | join: " " %}
+
       <p class="post-excerpt">
-        {% if post.question %}
-        {{ post.question | append: post.excerpt | strip_html | truncate: 140 }}
-        {% else %}
-        {{ post.excerpt | strip_html | truncate: 140 }}
-        {% endif %}
+        <strong><em>{{ post.question }}</em></strong><br />
+        {{ safe_text | remove_first: post.question }}…
       </p>
 
       <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>

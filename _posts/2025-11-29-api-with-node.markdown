@@ -3,8 +3,8 @@ layout: post
 title: "Learning APIs with Node"
 date: 2025-11-29 12:00:00 -0500
 categories: APIs Node.js
+question: "What have I learned about APIs with Node.js?"
 ---
-**What have I learned about APIs with Node.js?**
 
 I’ve learned that building APIs with Node.js is all about understanding how data flows between a client and a server. By working with Express, routing started to make sense. Each endpoint has a purpose, and the server responds based on the incoming request. I began to understand how middleware works behind the scenes, how to structure my routes, and how to return clean, meaningful JSON responses. More importantly, I realized how Node’s asynchronous nature makes it ideal for handling multiple requests efficiently without blocking the server.
 
