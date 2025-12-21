@@ -2,7 +2,7 @@
 
 1.9 Assignment: Memory Lane  
 2.6 Exercise  
-3.6 Exercise
+3.6 Exercise  
 4.6 Exercise
 
 Name: Alex Mendez  
