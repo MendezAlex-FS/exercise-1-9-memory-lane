@@ -3,6 +3,7 @@
 1.9 Assignment: Memory Lane  
 2.6 Exercise  
 3.6 Exercise
+4.6 Exercise
 
 Name: Alex Mendez  
 Email: [AMendez4@student.fullsail.edu](mailto:AMendez4@student.fullsail.edu)  
@@ -28,7 +29,7 @@ You can run the site locally, customize it, and deploy it easily to GitHub Pages
 Before installation, ensure you have the following tools installed:
 
 | Dependency | Version | Notes |
-|-----------|---------|--------|
+| ----------- | --------- | -------- |
 | **Ruby** | 3.1+ | Required to install Jekyll |
 | **Bundler** | Latest | Used for Ruby gem management |
 | **Jekyll** | Latest | Static site generator |
@@ -89,7 +90,8 @@ The site will be available at:
 │   ├── 2025-11-29-api-with-node.markdown
 │   ├── 2025-12-05-brendan-and-lex-interview.markdown
 │   ├── 2025-12-05-building-an-api.markdown
-│   └── 2025-12-10-securing-an-api.markdown
+│   ├── 2025-12-10-securing-an-api.markdown
+│   └── 2025-12-20-mvc-architecture.markdown
 ├── assets/
 │   ├── css/
 │   │   └── style.css
@@ -142,7 +144,7 @@ GitHub repo → **Settings → Pages** - You will need to make the repository pu
 Build settings:
 
 | Setting | Value |
-|--------|--------|
+| -------- | -------- |
 | Build command | `bundle exec jekyll build` |
 | Publish directory | `_site` |
 
@@ -157,7 +159,7 @@ Upload the **_site** folder to any hosting provider.
 ## 🧪 Development Workflow
 
 | Task | Command |
-|------|---------|
+| ------ | --------- |
 | Start local server | `bundle exec jekyll serve` |
 | Build site | `bundle exec jekyll build` |
 | Watch | `bundle exec jekyll serve --livereload` |
